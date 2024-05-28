@@ -1,0 +1,27 @@
+#As a long time USWNT fan and someone who attended the 2023 World Cup in Australia and New Zealand, I decided to do some research into some questions that both the tournament the USWNT’s performance raised. This will be a 
+#further series that dives into various women’s footballing questions I have. A lot of the topics are inspired by the book Soccernomics by Simon Kuper and Stefan Szymanski and a research article titled 
+#“An xG of Their Own: Using Expected Goals to Explore the Analytical Shortcomings of Misapplied Gender Schemas in Football” by Sachin Narayanan and Nathan David Pifer. The question for this post is: is the USWNT getting 
+#worse or is international competition getting better? My hypothesis is that the USWNT is not getting worse, everyone else is simply catching up to (or surpassing) their level of play. 
+
+#Using this Kaggle dataset, I calculated the win percentage (with ties counting as a half win) and goal differential for each decade for each team that played in the 2023 WC. After that, I used a regression analysis to 
+#compare the impact of GDP, income per capita, population, and soccer experience on goal differential. I wanted to see if the US being a large, rich nation was why the US was so dominate in the 2000s and 2010s. Maybe it 
+#was my lack of expertise or that the variables are too closely related, but the results were inconclusive. Other issues are related to the lack of data; there are some teams that have played fewer games in their whole 
+#history than the USWNT played in 2010-2019 alone. Even for the teams that had played ‘enough’ games, the results still weren’t conclusive. I decided to focus on the US, Spain, England, France, and Sweden. 
+
+#Looking strictly at win percentage (Wpc), only Spain, the current world champions, have a higher Wpc than the US. England, though ranked higher than the US (2 vs 4) has a lower Wpc. They did, however, place 2nd at the 
+#World Cup so they win when it counts. France has a lower Wpc as well, but they made it to the quarterfinals and only got knocked out during a sudden death pk shootout. Goal differential appears to tell a similar story 
+#with Sweden (ranked 6th in the world) being the lowest team by almost a full goal per game. But Sweden was the only side that didn’t play a high volume of games against very low ranked teams. What this means is that 
+#Sweden played more evenly matched games and less against teams where they won by 6+ goals. All other four sides played at least 3 games where the scoreline was at least 8 to 0. 
+#After a brief look into the data, I don’t think the USWNT has gotten worse. I think the USWNT experienced unprecedented success in the early stages of women’s soccer and now the rest of the world is catching up. There are 
+#a couple of factors that I think will impact the future success of the USWNT that I will further research, most notably our lack of squad members playing in Europe, but that’s for another post. Thanks for reading!
+
+#Disclaimers: My analysis is only as good as the data available, and women’s soccer wasn’t as reliably tracked as the men’s game until recently. Also, this is just for fun, I’m doing this on my own as way to combine my 
+#passion for women’s soccer with my desire to improve my analysis skills. Constructive feedback is always welcome!
+#Country Wpc (2020- April 2024)	GD (2020- April 2024)
+#USA	    0.852112676	             2.492957746
+#Spain	  0.858333333	             3.216666667
+#France	  0.822033898	             2.355932203
+#Sweden	  0.729508197	             1.68852459
+#England	0.781818182	             2.781818182
+
+#posted on LinkedIn on May 24, 2024
